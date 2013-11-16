@@ -1,0 +1,96 @@
+##############################################################################
+# Syntax Coloring Map For GOLDELOX
+##############################################################################
+
+##############################################################################
+# Datatypes (KEYWORD1)
+##############################################################################
+GOLDELOX	KEYWORD1
+
+##############################################################################
+# Methods and Functions (KEYWORD2)
+##############################################################################
+begin	KEYWORD2
+moveCursor	KEYWORD2
+putCharacter	KEYWORD2
+putString	KEYWORD2
+characterWidth	KEYWORD2
+characterHeight	KEYWORD2
+textForegroundColor	KEYWORD2
+textBackgroundColor	KEYWORD2
+textWidth	KEYWORD2
+textHeight	KEYWORD2
+textXGap	KEYWORD2
+textYGap	KEYWORD2
+textBold	KEYWORD2
+textInverse	KEYWORD2
+textItalic	KEYWORD2
+textOpacity	KEYWORD2
+textUnderline	KEYWORD2
+textAttributes	KEYWORD2
+setTextParameters	KEYWORD2
+
+clearScreen	KEYWORD2
+changeColor	KEYWORD2
+drawCircle	KEYWORD2
+drawFilledCircle	KEYWORD2
+drawLine	KEYWORD2
+drawRectangle	KEYWORD2
+drawFilledRectangle	KEYWORD2
+drawPolyline	KEYWORD2
+drawPolygon	KEYWORD2
+drawTriangle	KEYWORD2
+calculateOrbit	KEYWORD2
+putPixel	KEYWORD2
+readPixel	KEYWORD2
+moveOrigin	KEYWORD2
+drawLineAndMoveOrigin	KEYWORD2
+clipping	KEYWORD2
+setClipWindow	KEYWORD2
+extendClipRegion	KEYWORD2
+backgroundColor	KEYWORD2
+outlineColor	KEYWORD2
+contrast	KEYWORD2
+frameDelay	KEYWORD2
+linePattern	KEYWORD2
+screenMode	KEYWORD2
+setGraphicsParameters	KEYWORD2
+
+mediaInit	KEYWORD2
+setByteAddress	KEYWORD2
+setSectorAddress	KEYWORD2
+readByte	KEYWORD2
+readWord	KEYWORD2
+writeByte	KEYWORD2
+writeWord	KEYWORD2
+flushMedia	KEYWORD2
+displayImageRaw	KEYWORD2
+displayVideoRaw	KEYWORD2
+displayVideoFrameRaw	KEYWORD2
+
+beep	KEYWORD2
+getDisplayModel	KEYWORD2
+screenSaverTimeout	KEYWORD2
+screenSaverSpeed	KEYWORD2
+
+##############################################################################
+# Constants (LITERAL1)
+##############################################################################
+GOLDELOX_SYSTEM_FONT	LITERAL1
+GOLDELOX_MEDIA_FONT	LITERAL1
+GOLDELOX_TEXT_BOLD	LITERAL1
+GOLDELOX_TEXT_ITALIC	LITERAL1
+GOLDELOX_TEXT_INVERSE	LITERAL1
+GOLDELOX_TEXT_UNDERLINED	LITERAL1
+GOLDELOX_TEXT_PRINT_DELAY	LITERAL1
+GOLDELOX_CLIPPING_DISABLED	LITERAL1
+GOLDELOX_CLIPPING_ENABLED	LITERAL1
+GOLDELOX_LANDSCAPE	LITERAL1
+GOLDELOX_LANDSCAPE_REVERSE	LITERAL1
+GOLDELOX_PORTRAIT	LITERAL1
+GOLDELOX_PORTRAIT_REVERSE	LITERAL1
+GOLDELOX_PEN_SIZE	LITERAL1
+GOLDELOX_SOLID	LITERAL1
+GOLDELOX_OUTLINE	LITERAL1
+
+GOLDELOX_OBJECT_COLOR	LITERAL1
