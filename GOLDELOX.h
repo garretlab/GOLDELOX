@@ -185,6 +185,12 @@ public:
   int getDisplayModel(char *string);
   int screenSaverTimeout(uint16_t timeout);
   int screenSaverSpeed(uint16_t speed);
+
+/*
+ * Utility Commands
+ */
+
+int rgbToColor(uint8_t red, uint8_t green, uint8_t blue);
   
 private:
   Stream *serialPort;

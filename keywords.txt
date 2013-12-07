@@ -73,6 +73,8 @@ getDisplayModel	KEYWORD2
 screenSaverTimeout	KEYWORD2
 screenSaverSpeed	KEYWORD2
 
+rgbToColor	KEYWORD2
+
 ##############################################################################
 # Constants (LITERAL1)
 ##############################################################################

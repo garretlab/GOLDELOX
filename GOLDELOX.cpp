@@ -504,6 +504,14 @@ int GOLDELOX::screenSaverSpeed(uint16_t speed) {
 }
 
 /*
+ * Utility commands
+ */
+
+int GOLDELOX::rgbToColor(uint8_t red, uint8_t green, uint8_t blue) {
+  return (((red & 0b11111000) << 8) | ((green & 0b11111100) << 3) | (blue >> 3));
+}
+ 
+/*
  *  Private methods
  */
 int GOLDELOX::sendByte(uint8_t command) {
